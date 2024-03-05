@@ -5,6 +5,9 @@ from app.models import User, Post
 
 app = create_app()
 
+# this is a pointless comment to test git checkin
+# another comment
+
 
 @app.shell_context_processor
 def make_shell_context():
